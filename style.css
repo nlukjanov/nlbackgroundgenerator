@@ -1,0 +1,75 @@
+body {
+    font: 'Raleway', sans-serif;
+    color:  rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    top: 15%;
+    background: linear-gradient(to right, #ff0000, #ffff00);
+}
+
+.container {
+    margin: auto;
+    width: 60%;
+}
+
+input[type="color"] {
+    background: transparent;
+    color: transparent;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: transform 1s, box-shadow 1s;
+}
+
+input[type="color"]:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: -5px 1px 30px rgba(0,0,0, 0.3);
+}
+
+h1 {
+    font: 600 2.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 100%;
+}
+
+h2  {
+    font: 300 1.5em 'Roboto';
+}
+
+h3 {
+    font: 600 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.2em;
+}
+
+button.randomColor {
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    box-shadow: -5px 1px 30px rgba(0,0,0, 0.3);
+    transition: transform 800ms;
+    outline: none;
+}
+
+p {
+    margin: auto;
+    padding: 20px;
+    font: 900 1em 'Roboto';
+    letter-spacing: 0.1em;
+    text-align: center;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.1);
+}
